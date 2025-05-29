@@ -91,7 +91,7 @@ Find it on my linkedin post
 
 ## 💡 Credits
 
-Made with ☕ and 😤 by a developer who’s seen enough "Test Opportunities" to last a lifetime.
+Developed by yours truly who’s seen enough "Test Opportunities" to being there on Org for forever.
 
 ---
 

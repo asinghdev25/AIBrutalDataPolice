@@ -1,0 +1,32 @@
+<template>
+  <lightning-card class="container">
+
+    <!-- Spinner -->
+    <template if:true={isLoading}>
+      <lightning-spinner alternative-text="Loading" size="medium" variant="brand" ></lightning-spinner>
+    </template>
+
+    <!-- Main content follows -->
+    <h1 class="title">👮‍♂️ Brutal Data Police</h1>
+
+    <button class="roast-button" onclick={handleClick}>
+      🔥 Roast this record
+    </button>
+
+    <template if:true={hasRoast}>
+      <div class="emoji">{emoji}</div>
+      <div class="roast-block">
+        <template if:true={roastEntries}>
+            <lightning-datatable
+                key-field="id"
+                data={roastEntries}
+                columns={columns}
+                hide-checkbox-column
+                suppress-bottom-bar
+              >
+            </lightning-datatable>
+        </template>
+      </div>
+    </template>
+  </lightning-card >
+</template>

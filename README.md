@@ -43,7 +43,7 @@ Example output:
 {
   "💀": "No emails logged? This opportunity is like a book with blank pages. 📚",
   "📎 Clippy Suggestion": "Start tracking communications. Document interactions.",
-  "🙄": "Close date in 2025? Guess we're in a time machine. 🚀",
+  "🙄": "Close date in 2026? Guess we're in a time machine. 🚀",
   "🧽 Clean-Up Advice": "Move this to a realistic timeline."
 }
 ```
